@@ -5,7 +5,7 @@ Summary:	Cryptographically-Secure replacement for rand()
 
 Group:	System Enviornment/Base
 License:	MIT
-Source0:	https://github.com/hxtk/libcsrand/archive/main.tar.gz
+Source0:	https://github.com/hxtk/libcsrand/archive/%{VERSION}-release.tar.gz
 
 BuildArch:	x86_64
 
