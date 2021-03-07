@@ -43,7 +43,7 @@ For Bazel simply add this library to your dependencies:
 cc_binary(
     name = "foo",
     deps = [
-       "@secure-rand//:csrand,
+       "@csrand//:csrand,
        ...
     ],
     ...
