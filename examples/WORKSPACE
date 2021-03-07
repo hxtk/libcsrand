@@ -1,0 +1,14 @@
+workspace(name = "examples")
+
+## For released versions:
+#load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+#
+#git_repository(
+#    name = "libcsrand",
+#    remote = "https://github.com/hxtk/libcsrand/",
+#    tag = "<version>",
+#)
+local_repository(
+    name = "libcsrand",
+    path = "..",
+)
